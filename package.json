@@ -1,0 +1,23 @@
+{
+  "name": "gohacker.org",
+  "version": "0.1.0",
+  "description": "Find Local Hackerspaces",
+  "main": "api/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:HakrLabs/gohacker.git"
+  },
+  "keywords": [
+    "Hackerspace",
+    "Makerspace"
+  ],
+  "author": "Daniel Grove <danny@drgrovellc.com>",
+  "license": "AGPL",
+  "bugs": {
+    "url": "https://github.com/HakrLabs/gohacker/issues"
+  },
+  "homepage": "https://github.com/HakrLabs/gohacker"
+}
