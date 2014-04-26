@@ -5,11 +5,9 @@ var config =
         { domain: "gohacker.org"
         , port: 11111
         }
-    , postgres:
-        { host: "localhost"
-        , user: "USER"
-        , password: "PASSWORD"
-        , database: "DATABASE"
+    , mongodb:
+        { host: 'localhost'
+        , database: 'test'
         }
     }
 
