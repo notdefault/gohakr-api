@@ -2,7 +2,7 @@
   "name": "gohacker.org",
   "version": "0.1.0",
   "description": "Find Local Hackerspaces",
-  "main": "api/server.js",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -19,5 +19,11 @@
   "bugs": {
     "url": "https://github.com/HakrLabs/gohacker/issues"
   },
-  "homepage": "https://github.com/HakrLabs/gohacker"
+  "homepage": "https://github.com/HakrLabs/gohacker",
+  "dependencies": {
+    "express": "^4.1.0",
+    "express-mongoose": "^0.1.0",
+    "express-namespace": "^0.1.1",
+    "mongoose": "^3.8.8"
+  }
 }
