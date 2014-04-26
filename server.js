@@ -3,10 +3,10 @@
 var express = require('express')
     require('express-namespace')
     require('express-mongoose')
-var config = require('./libs/config'),
-    response = require('./libs/response'),
-    space = require('./libs/space'),
-  search = require('./libs/search')
+var config = require('./lib/config'),
+    response = require('./lib/response'),
+    space = require('./lib/space'),
+  search = require('./lib/search')
 
 var app = express();
 
